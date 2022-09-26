@@ -332,6 +332,11 @@ padding-top: 1rem;
     padding: 1rem 0;
 }
 
+.contact .row {
+display: flex;
+justify-content: space-between;
+}
+
 @media (max-width: 500px) {
  body {
      flex-direction: column;
