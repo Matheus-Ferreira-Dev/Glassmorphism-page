@@ -226,7 +226,7 @@ color: #FF7F11;
     display: flex;
     justify-content: space-between;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -295,4 +295,22 @@ background: #fff;
     font-size: 1.5rem;
     color: #eee;
     padding: .5rem 5rem;
+}
+
+@media (max-width: 500px) {
+ body {
+     flex-direction: column;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 100%;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+    }
+
 }
