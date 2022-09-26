@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+html {
+    font-size: 62.5%;
+    /* overflow: hidden; */
+}
+
+body{
+    /* overflow: hidden; */
+    min-height: 100%;
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient( #176087,#190933);
+    padding: 5.5rem;
+}
+
+section {
+    padding: 1rem 7%;
+    align-items: center;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 1.5rem 4rem;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: .2s linear;
+    color: #fff;
+}
+
+.btn:hover {
+   background:  rgba(255,255,255,.5);
+   color: #000;
+   font-weight: 500;
+   transform: scaleY(1.1);
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+header {
+    width: 35rem;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+header .user {
+    padding-top: 2rem;
+}
+
+header .user img {
+    margin: 1rem 0;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1rem rgba(255,255,255,.2);
+}
+
+header .user .name {
+    font-size: 3rem;
+    color: #fff;
+    padding: .5rem 0;
+    font-weight: 700;
+}
+
+header .user .post {
+    font-size: 1.8rem;
+    color: #eee;
+    font-weight: 400;
+}
+
+header .navbar {
+padding: 1rem 3rem;
+}
+
+header .navbar ul li{
+    margin: 1rem 0;
+    list-style: none;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background: rgba(255, 255, 255,.3);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    color: #fff;
+    transition: all .2s liner; 
+}
+
+header .navbar ul li a:hover {
+    background: rgba(255,255,255,.5);
+    color: #555;
+    transition: none;
+}
+
+.container {
+    height: 63rem;
+    width: 80rem;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.home{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    padding-bottom: 10rem;
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.home .name span {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.home .post {
+padding: 1rem 0;
+}
+
+.home .post span {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.home .share{
+    position: absolute;
+    left: 50%;
+    bottom: 5rem;
+    transform: translateX(-50%);
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgba(255,255,255,.3);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    transition: .2s linear;    
+}
+
+.home .share a{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    padding: 1rem 2rem;    
+    margin: 1rem;
+    color: #fff;    
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.home .share a:hover{
+background: rgba(255,255,255,.5);
+color: #FF7F11;
+}
+
+
+.about {
+    min-height: 100%;
+}
+
+.about .content h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    /* text-align: center; */
+}
+
+.about .content h3 span {
+    color: #fff;
+}
+
+.about .content p {
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color: #eee;
+}
+
+.about .skills {
+    padding: 1rem 0;
+}
+
+.about .skills .progress {
+    padding: 1rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    background: rgba(255,255,255,.2);
+}
+
+.about .skills .progress h3 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.about .skills .progress .bar {
+    position: relative;
+    height: .3rem;
+    width: 100%;
+    margin: 1rem 0;
+    background-color: #000;
+}
+
+.about .skills .progress .bar span {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: #fff;
+}
+
+.about .skills .progress:nth-child(1) .bar span {
+    width: 95%;
+}
+
+.about .skills .progress:nth-child(2) .bar span {
+    width: 95%;
+}
+
+.about .skills .progress:nth-child(3) .bar span {
+    width: 95%;
+}
+
+.about .skills .progress:nth-child(4) .bar span {
+    width: 75%;
+}
+
+.service {
+    min-height: 100%;
+}
+
+.service .box-container {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+.service .box-container .box{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    background: rgba(255,255,255,.2);
+    text-align: center;
+    width: 32rem;
+}
+
+.service .box-container .box i {
+    color: #fff;
+    font-size: 4rem;
+    padding: 1rem 0;
+}
+
+.service .box-container .box p {
+    font-size: 1.5rem;
+    color: #eee;
+    padding: .5rem 5rem;
+}
