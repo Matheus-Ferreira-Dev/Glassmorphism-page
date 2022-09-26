@@ -29,6 +29,7 @@ body{
 section {
     padding: 1rem 7%;
     align-items: center;
+    min-height: 100%;
 }
 
 .btn {
@@ -132,7 +133,6 @@ header .navbar ul li a:hover {
 }
 
 .home{
-    min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,11 +187,6 @@ padding: 1rem 0;
 .home .share a:hover{
 background: rgba(255,255,255,.5);
 color: #FF7F11;
-}
-
-
-.about {
-    min-height: 100%;
 }
 
 .about .content h3 {
@@ -263,10 +258,6 @@ background: #fff;
     width: 75%;
 }
 
-.service {
-    min-height: 100%;
-}
-
 .service .box-container {
     padding: 1rem 0;
     display: flex;
@@ -295,6 +286,11 @@ background: #fff;
     font-size: 1.5rem;
     color: #eee;
     padding: .5rem 5rem;
+}
+
+.education .box-container {
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 500px) {
